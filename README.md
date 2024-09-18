@@ -31,14 +31,17 @@ Esta aplicación está desarrollada con [Nest](https://github.com/nestjs/nest), 
 1. **Consultar una lista de Pokémon:**
    - Puedes obtener los primeros 100 Pokémon con sus nombres y URLs.
    - Endpoint: `GET /api/pokemon`
+   - Ejemplo: `http://localhost:3000/api/pokemon`
 
 2. **Consultar detalles de un Pokémon específico:**
    - Proporciona el nombre y los tipos de un Pokémon al buscar por su ID.
    - Endpoint: `GET /api/pokemon/:id`
+   - Ejemplo: `http://localhost:3000/api/pokemon/1`
 
 3. **Consultar detalles avanzados de un Pokémon:**
    - Además del nombre y los tipos, este endpoint también devuelve las traducciones al español y japonés de cada tipo del Pokémon.
    - Endpoint: `GET /api/pokemonAndTypes/:id`
+   - Ejemplo: `http://localhost:3000/api/pokemonAndTypes/1`
 
 ## Tecnologías Utilizadas
 
