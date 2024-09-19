@@ -40,8 +40,8 @@ Esta aplicación está desarrollada con [Nest](https://github.com/nestjs/nest), 
 
 3. **Consultar detalles avanzados de un Pokémon:**
    - Además del nombre y los tipos, este endpoint también devuelve las traducciones al español y japonés de cada tipo del Pokémon.
-   - Endpoint: `GET /api/pokemonAndTypes/:id`
-   - Ejemplo: `http://localhost:3000/api/pokemonAndTypes/1`
+   - Endpoint: `GET /api/pokemon/pokemonAndTypes/:id`
+   - Ejemplo: `http://localhost:3000/api/pokemon/pokemonAndTypes/1`
 
 ## Tecnologías Utilizadas
 
