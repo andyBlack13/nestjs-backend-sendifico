@@ -83,5 +83,5 @@ $ npm run start:prod
 
 ```
 
-5. **La API esta disponible en [http://localhost:3000](http://localhost:3000).**
+5. **La API para testeo esta disponible en [https://nestjs-backend-sendifico.vercel.app](https://nestjs-backend-sendifico.vercel.app).**
 
